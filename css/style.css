@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    
+    
+    /*ära unusta ka raamjoonesid*/
+
+    
+
+    .container {
+        background-color: aliceblue;
+        color: rgb(181, 80, 80);
+        width: 100%;
+    }
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        border: 1px solid rgb(181, 80, 80);
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul li a {
+        color: rgb(181, 80, 80);
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+    
+    
+    /*ära unusta ka raamjoonesid*/
+    .container {
+        background-color: rgb(244, 184, 111);
+        color: rgb(104, 48, 48);
+    }
+
+    .image-container {
+        background-image: url('../img/profile3.jpg');
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(104, 48, 48);
+    }
+
+    .footer ul li a {
+        color: rgb(104, 48, 48);
+    }
+
+}
+
+
+@media (min-width: 1024px){
+        
+    
+    
+    /*ära unusta ka raamjoonesid*/
+
+    .container {
+        background-color: rgb(196, 255, 209);
+        color: rgb(94, 33, 33);
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(94, 33, 33);
+    }
+
+    .image-container {
+        background-image: url('../img/profile2.jpg');
+    }
+
+    .footer ul li a {
+        color: rgb(94, 33, 33);
+    }
+
+}
+
+
+@media (min-width: 1200px){
+
+    
+    
+    /*ära unusta ka raamjoonesid*/
+    .container {
+        background-color: rgb(108, 115, 158);
+        color: rgb(18, 24, 27);
+    }
+
+    .image-container {
+        background-image: url('../img/profile4.jpg');
+    }
+
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        border: 1px solid rgb(18, 24, 27);
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid black;
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+    .footer ul li a {
+        color: rgb(18, 24, 27);
+    }
+
+}
+
+
